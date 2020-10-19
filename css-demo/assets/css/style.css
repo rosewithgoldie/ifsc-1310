@@ -1,3 +1,4 @@
+/* ---------------CSS Demo Style Sheet----------------- */
 /* ---------------Box Sizing----------------- */
 
 html {
@@ -17,6 +18,14 @@ html {
   margin:40px auto;
   max-width:900px;
 }
+
+/* -----------------Responsive Styles---------------------- */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
 /* -----------------Global Styles---------------------- */
 body {
     font-family: 'Raleway', Arial, sans-serif;
@@ -90,18 +99,54 @@ header.primary nav ul li a:hover, header.primary ul li a:active{
  background-color:rgba(0,0,0,.8); 
 }
 
+#intro{
+    border-bottom:1px solid #c0c0c0;
+    padding-bottom: 1.5em;
+    line-height:50px;
+  }
+  
+#intro p {  
+  line-height:1.5em;
+}
 
+#intro h2{
+  color:#b76e79;
+}
 
+#content{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
 
+#content article.post{
+  width:30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,.4);
+  padding:.7em;
+  transition:5s;
+}
 
+#content article.post:hover{
+  box-shadow: 0 8px 16px rbgc(0,0,0,.4);
+}
 
+#content .post figure{
+  margin:0;
+}
 
+#content article time, #content article figcaption, #content article footer{
+  font-size:.8rem;
+  text-transformation:uppercase;
+  color:#c0c0c0;
+}
 
+#content article img{
+  border-radius:4px;
+}
 
-
-
-
-
+.post a:link,.post a:visited{
+  color:#b76e79;
+}
 
 @media screen and (max-width:690px){
   
@@ -116,12 +161,7 @@ header.primary nav ul li a:hover, header.primary ul li a:active{
     display:block;
   } 
   
-  
-  
 }
-
-
-
 
 
 
