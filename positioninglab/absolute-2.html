@@ -27,23 +27,48 @@ body {
 	border-bottom-style: solid;
 	border-left-style: solid;
 	width: 800px;
+	height: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	position:relative;
 }
+
+#wrapper > div {
+	width:120px;
+	height:120px;
+}
+
 #red {
 	background-color: #900;
+	position:absolute;
+	top:0;
+	left:0;
 }
 #green {
 	background-color: #090;
+	position:absolute;
+	top:0;
+	right:0px;
 }
 #blue {
 	background-color: #00F;
+	position:absolute;
+	left:0;
+	bottom:0;
 }
 #purple {
 	background-color: #63C;
+	position:absolute;
+	bottom:0;
+	right:0px;
 }
 #footer {
-	background-color: #666;
+  background-color: #666;
+  position:absolute;
+  top:350px;
+  left:350px;
+  height:100px;
+  width:100px;
 }
 h1 {
 	color: #000;
