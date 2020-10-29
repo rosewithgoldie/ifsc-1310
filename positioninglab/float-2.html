@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <title>Positioning Lab</title>
 <style type="text/css">
-* {
+* { /*universal selector */
 	margin: 0px;
 	padding: 0px;
 }
@@ -26,14 +26,16 @@ body {
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	width: 800px;
+	width: 800px; /*800-100px=700/4(number of boxes)*/
 	margin-right: auto;
 	margin-left: auto;
 }
 #red {
 	background-color: #900;
 	float:left;
-	margin:20px;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
 	width:175px;
 	height:225px;
 	
@@ -41,29 +43,36 @@ body {
 #green {
 	background-color: #090;
 	float:left;
-	margin:20px 0px;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
 	width:175px;
 	height:225px;
 }
 #blue {
 	background-color: #00F;
-	float:left;
-	margin:20px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
 	width:175px;
 	height:225px;
 }
 #purple {
 	background-color: #63C;
-	float:left;
-	margin:20px 0px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
 	width:175px;
 	height:225px;
-	
 }
 #footer {
 	background-color: #666;
 	clear:left;
-	margin:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-right:20px;
 }
 h1 {
 	color: #000;
@@ -74,7 +83,7 @@ h1 {
 </head>
 
 <body>
-<h1>Exercise 1</h1>
+<h1>Float 2</h1>
 <div id="wrapper">
   <div id="red">Red</div>
   <div id="green">Green</div>
