@@ -2,11 +2,31 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-#header {
-    text-align:center;
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#nav{
+  text-align: center;
+  color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 #intro {
-    text-align: center;
+    color: black;
 }
+
+
+
+
+
+
+
+
+
 
