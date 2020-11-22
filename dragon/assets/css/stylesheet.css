@@ -47,6 +47,8 @@ body {
    margin: 0;
 }
 
+
+
 header.primary {/*----Without Background----*/
     background-color: #181c1f;
     text-align: center;
@@ -61,8 +63,6 @@ header.primary::before {/*----With Background----*/
     background-image: url("../img/dragoncrew.8k.jpg");
     background-size: cover;
     position: absolute;
-    width:100%;
-    height:100%;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -89,7 +89,7 @@ header.primary h1 a { /*----Logo----*/
 }
 
 header.primary h2 {
-    font-family: "Goldman", cursive;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 2em;/*----Bold Emphasis----*/
     margin: 20px auto 40px;
     position: relative;
@@ -100,14 +100,14 @@ header.primary nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 5px;
+    padding: 0;
     max-width:900px;
     margin: 20px auto;
 }
 
 header.primary nav li {
     list-style-type: none;
-    padding: 4.5px;
+    padding: 0;
     width: 20%;
 }
 
@@ -115,11 +115,12 @@ header.primary nav a:link,
 header.primary nav a:visited {
     color: white;
     text-decoration: none;
-
+    background-color:#000000;
+    background-color: rgba(142, 166, 184, 0.4);
     padding: 8px 16px;
     border-radius: 10px;
     transition: 0.6s;
-    justify-content:space-between;
+    display: block;
 }
 
 header.primary nav a:hover,
@@ -135,7 +136,7 @@ section#content {
 }
 
 section#content h3 {
-    font-family: "Goldman", cursive;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 1.2rem;
     color: #33536b;
     border-bottom: 1px solid #c0c0c0;
@@ -151,7 +152,7 @@ section#content caption {
     font-weight:bold;
     font-size:1.5rem;
     margin: 10px;
-    font-family: "Goldman", cursive;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 2em;
     color: #33536b;
 }
@@ -196,7 +197,7 @@ section#articles h2,
     flex: 0 0 100%;
     color: #33536b;
     text-align: center;
-    font-family: "Goldman", cursive;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 2em;
 }
 
@@ -282,10 +283,16 @@ aside article.widget {
     border-collapse: collapse;
 }
 
-widget .overview table td {
+.widget.overview table td {
     border-bottom: 1px solid #fff;
     padding: 10px;
 }
+
+.widget.overview table td:nth-child(even) {
+   text-align: right;
+}
+
+
 
 aside article a:link, 
 aside article a:visited {
@@ -317,6 +324,7 @@ footer#colophon {
     text-align: center;
     font-size: 0.9rem;
     text-transform: uppercase;
+    font-family: 'Xanh Mono', monospace
 }
 
 #colophon h6 a:link,
