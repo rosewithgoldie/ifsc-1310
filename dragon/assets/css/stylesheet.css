@@ -41,6 +41,11 @@ img {
     height: auto;
 }
 
+#capfig{
+    float: right;
+    padding: 0px;
+}
+
 /*----Global Styles----*/
 body {
    font-family: "Space Grotesk", sans-serif;
@@ -253,6 +258,17 @@ section#articles h2 {
 #articles li {
     margin-bottom: 20px;
 }
+
+#figcapp {
+    text-align: center;
+}
+
+/*----Media----*/
+#video {
+    text-align: center;
+}
+
+
 
 /*----Hero----*/
 #hero {
