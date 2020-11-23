@@ -147,6 +147,13 @@ section#content h3 {
     border-bottom: 1px solid #c0c0c0;
 }
 
+section#content h5 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    color: #33536b;
+}
+
+
 section#content table {
     width: 100%;
     border: 1px solid #c0c0c0;
@@ -262,6 +269,11 @@ section#articles h2 {
 #figcapp {
     text-align: center;
 }
+
+#crs {
+    text-align: center;
+}
+
 
 /*----Media----*/
 #video {
