@@ -5,8 +5,33 @@ body {
 h1 {
     text-align: center;
     color:#ffffff;
+    font-family: Crimson Text, serif;
+    font-style: italic;
+}
+
+p {
+    font-family: Crimson Text, serif;
+    color:white;
+    text-indent: 60px;
+    text-align:justify;
+}
+
+li {
+    color: white;
+    font-style: italic;
 }
 
 ul li a{
     color:#ffffff;
+}
+
+a {
+    color: white;
+    font-family:"Crimson Text", serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#video {
+    text-align: center;
 }
