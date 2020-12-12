@@ -31,8 +31,16 @@ html {
 .img-center {
     display: block;
     margin: 20px auto;
-    border: 1px solid #c0c0c0;
     padding: 5px;
+}
+
+.gallery {
+    margin: 10px auto; /*t, r. b, l*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
 }
 
 /*----Responsive Images----*/
