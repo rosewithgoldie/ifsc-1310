@@ -355,12 +355,16 @@ table {
     border: 1px solid #c0c0c0;
 }
 
+tr {
+    color: white;
+}
+
 table tr:hover{
   background-color: #1b2c38;
 }
 
 table th {
-  background-color: #b76e79;
+  background-color: #1b2c38;
   color:#ffffff;
   width:33%;
   padding:10px;
