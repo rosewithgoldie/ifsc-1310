@@ -33,17 +33,14 @@ html {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 45px;
-    position: relative;
-    clear: left;
+    padding-bottom: 25px;
 }
     
 .slideshow {
     margin-left: auto; /*t, r. b, l*/
     margin-right: auto;
     display: block;
-    padding-bottom: auto;
-    position: relative;
+    padding: auto;
 }
 
 /*----Responsive Images----*/
