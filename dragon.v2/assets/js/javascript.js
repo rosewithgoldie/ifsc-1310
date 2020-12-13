@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$('.gallery').cycle({ //Binding
+$('.slideshow').cycle({ //Binding
 		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 	});
 
