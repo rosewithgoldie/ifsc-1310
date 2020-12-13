@@ -9,6 +9,12 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    color:#ffffff;
+    font-family: Crimson Text, serif;
+    font-style: italic; 
+}
+
 p {
     font-family: Crimson Text, serif;
     color:white;
