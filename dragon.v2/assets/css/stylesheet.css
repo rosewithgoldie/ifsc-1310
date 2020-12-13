@@ -29,18 +29,18 @@ html {
 }
 
 .img-center {
-    display: block;
-    margin: 20px auto;
-    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px;
 }
-
-.gallery {
-    margin: 10px auto; /*t, r. b, l*/
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
     
+.gallery {
+    margin-left: auto; /*t, r. b, l*/
+    margin-right: auto;
+    display: block;
+    padding: auto;
 }
 
 /*----Responsive Images----*/
@@ -139,6 +139,10 @@ header.primary nav a:visited {
 header.primary nav a:hover,
 header.primary nav a:active {
     background-color: rgba(51, 83, 107, 0.8);
+}
+
+#overview {
+    text-align: center;
 }
 
 /*----Content----*/
@@ -328,8 +332,6 @@ aside article.widget {
    text-align: right;
 }
 
-
-
 aside article a:link, 
 aside article a:visited {
     color: #ffffff;
@@ -345,6 +347,29 @@ aside article a:active {
 
 aside article footer {
     display: none;
+}
+
+/*----Table----*/
+table {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+}
+
+table tr:hover{
+  background-color: #1b2c38;
+}
+
+table th {
+  background-color: #b76e79;
+  color:#ffffff;
+  width:33%;
+  padding:10px;
+  text-align:center;
+}
+
+table td {
+  border:1px solid #c0c0c0;
+  padding:5px;
 }
 
 /*----Footer----*/
